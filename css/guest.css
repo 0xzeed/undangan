@@ -35,12 +35,15 @@ section{padding:4rem 1.5rem;text-align:center;position:relative}
 details.gift{text-align:left}details.gift summary{cursor:pointer;display:flex;justify-content:space-between;font-weight:500;list-style:none}details.gift .row-c{display:flex;justify-content:space-between;align-items:center;margin-top:.7rem;font-size:.88rem;gap:.6rem}
 #comment .box{border:1px solid var(--line);background:var(--card);border-radius:1.2rem;padding:1.2rem;text-align:left}
 .foot{background:#0c1f19;color:#d9c9a0;padding:3rem 1.5rem 6rem}.foot a{color:#d9b56a}
-#navbar-menu{position:sticky;bottom:.8rem;margin:0 1rem;background:color-mix(in srgb,var(--card) 88%,transparent);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:2rem;padding:.2rem;z-index:20;box-shadow:0 10px 30px #0003}
-#navbar-menu .nav-link{color:var(--muted);border-radius:2rem;padding:.5rem .2rem;text-align:center;font-size:.9rem}#navbar-menu .nav-link.active{background:var(--accent2);color:var(--paper)}
-#navbar-menu ul{display:flex;list-style:none;margin:0;padding:0}#navbar-menu li{flex:1}#navbar-menu a{display:block;text-decoration:none}
 .fab{position:fixed;bottom:5.5rem;right:1rem;z-index:1030;display:flex;flex-direction:column;gap:.6rem}
 .fab button{width:2.6rem;height:2.6rem;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--ink);box-shadow:0 6px 18px #0003}
 .cover{position:fixed;inset:0;z-index:1056;background:radial-gradient(circle at 50% 0,#1a5c46,#0c1f19 70%);color:#f7f0de;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem}
 .cover .portrait{width:11rem;height:14rem;margin:1.5rem auto}.cover h2{font-size:3.2rem;margin:0}.cover .btn-u{color:#f7f0de;margin-top:1.5rem}
 #loading{flex-direction:column;gap:1rem}#loading>div{width:min(14rem,70%)}
 .side-title{position:absolute;bottom:0;left:0}
+#navbar-menu{display:block;position:sticky;bottom:.6rem;margin:0 .8rem;padding:.3rem;background:color-mix(in srgb,var(--card) 90%,transparent);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:2rem;z-index:20;box-shadow:0 10px 30px #0003}
+#navbar-menu ul{display:flex;width:100%;list-style:none;margin:0;padding:0}#navbar-menu li{flex:1}
+#navbar-menu a{display:block;text-decoration:none}
+#navbar-menu .nav-link{color:var(--muted);border-radius:1.6rem;padding:.55rem 0;text-align:center;font-size:1.3rem;line-height:1.1}
+#navbar-menu .nav-link span{display:block;font-size:.68rem;margin-top:.2rem;letter-spacing:.04em}
+#navbar-menu .nav-link.active{background:var(--accent2);color:var(--paper)}
