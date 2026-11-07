@@ -35,8 +35,6 @@ section{padding:4rem 1.5rem;text-align:center;position:relative}
 details.gift{text-align:left}details.gift summary{cursor:pointer;display:flex;justify-content:space-between;font-weight:500;list-style:none}details.gift .row-c{display:flex;justify-content:space-between;align-items:center;margin-top:.7rem;font-size:.88rem;gap:.6rem}
 #comment .box{border:1px solid var(--line);background:var(--card);border-radius:1.2rem;padding:1.2rem;text-align:left}
 .foot{background:#0c1f19;color:#d9c9a0;padding:3rem 1.5rem 6rem}.foot a{color:#d9b56a}
-.fab{position:fixed;bottom:5.5rem;right:1rem;z-index:1030;display:flex;flex-direction:column;gap:.6rem}
-.fab button{width:2.6rem;height:2.6rem;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--ink);box-shadow:0 6px 18px #0003}
 .cover{position:fixed;inset:0;z-index:1056;background:radial-gradient(circle at 50% 0,#1a5c46,#0c1f19 70%);color:#f7f0de;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem}
 .cover .portrait{width:11rem;height:14rem;margin:1.5rem auto}.cover h2{font-size:3.2rem;margin:0}.cover .btn-u{color:#f7f0de;margin-top:1.5rem}
 #loading{flex-direction:column;gap:1rem}#loading>div{width:min(14rem,70%)}
@@ -47,3 +45,11 @@ details.gift{text-align:left}details.gift summary{cursor:pointer;display:flex;ju
 #navbar-menu .nav-link{color:var(--muted);border-radius:1.6rem;padding:.55rem 0;text-align:center;font-size:1.3rem;line-height:1.1}
 #navbar-menu .nav-link span{display:block;font-size:.68rem;margin-top:.2rem;letter-spacing:.04em}
 #navbar-menu .nav-link.active{background:var(--accent2);color:var(--paper)}
+.fab{position:fixed;bottom:6rem;right:.9rem;z-index:1030;display:flex;flex-direction:column;gap:.7rem}
+.fab .btn{width:3rem;height:3rem;padding:0;display:flex;align-items:center;justify-content:center;border-radius:50%;border:1px solid var(--line);font-size:1.25rem;line-height:1;color:var(--ink);background:color-mix(in srgb,var(--card) 85%,transparent);backdrop-filter:blur(8px);box-shadow:0 6px 18px #0003}
+.fab .btn i{font-size:1.25rem;line-height:1}
+.fab .btn:hover,.fab .btn:active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.band .card-u{color:var(--ink)}
+.band .card-u .text-muted{color:var(--muted)!important}
+[data-bs-theme=dark] .band .card-u{background:#1a4238!important;border-color:#2d5a4c}
+.gallery img{height:auto}
